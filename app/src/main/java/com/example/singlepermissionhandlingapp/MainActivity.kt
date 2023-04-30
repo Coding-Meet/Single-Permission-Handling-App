@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     private val permissionRequestId = 1
     private val permissionName = Manifest.permission.READ_CONTACTS
-    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
